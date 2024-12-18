@@ -90,7 +90,7 @@ const Navbar: React.FC = () => {
         {!username && <Li><Button onClick={() => setIsRegisterModalOpen(true)}>Registro</Button></Li>}
         {username && (
           <>
-            <Li>Bienvenido, {username}!</Li>
+            <Li>Bienvenido</Li>
             <Li><LogoutButton onClick={handleLogout}>Cerrar Sesión</LogoutButton></Li>
           </>
         )}
