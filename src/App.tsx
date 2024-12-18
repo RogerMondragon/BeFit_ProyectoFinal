@@ -8,8 +8,6 @@ import Plans from './pages/Plans';
 import Tips from './pages/Tips';
 import Supplements from './pages/Supplements';
 import Contact from './pages/Contact';
-import Register from './pages/Register';
-import Login from './pages/Login';
 import { theme } from './theme';
 import GlobalStyle from './globalStyles';
 
@@ -25,8 +23,6 @@ const App: React.FC = () => {
           <Route path="/tips" element={<Tips />} />
           <Route path="/supplements" element={<Supplements />} />
           <Route path="/contact" element={<Contact />} />
-          <Route path="/register" element={<Register />} />
-          <Route path="/login" element={<Login />} />
         </Routes>
       </Router>
     </ThemeProvider>

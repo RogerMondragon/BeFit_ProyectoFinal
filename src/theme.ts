@@ -1,11 +1,13 @@
 // src/theme.ts
 export const theme = {
     colors: {
-      primary: '#0f4c81',
+      primary: '#61dafb',
       secondary: '#1c1c1c',
-      accent: '#0ff1ce',
-      background: '#f3f4f6',
+      accent: '#21a0f6',
+      background: '#282c34',
       text: '#ffffff',
+      inputBackground: '#ffffff',
+      inputText: '#000000',
     },
     fonts: {
       main: 'Roboto, sans-serif',

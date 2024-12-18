@@ -36,9 +36,9 @@ const GlobalStyle = createGlobalStyle`
 
   .culturista1 {
     position: absolute;
-    left: 220px;
+    left: 280px;
     right: 50px;
-    top: 290px;
+    top: 280px;
     transform: translate(-100);
     width: 100%;
   }
